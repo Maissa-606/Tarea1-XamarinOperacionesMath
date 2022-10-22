@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator.MainPage">
+
+    <StackLayout>
+        <Label Text="Tarea 1: Operaciones" HorizontalTextAlignment="Center" TextColor="Black" FontSize="20"/>
+        <Label Text="Maissa Sarmiento Castellanos" HorizontalTextAlignment="Center" TextColor="Black" FontSize="20"/>
+        <Entry x:Name="num1"
+               Placeholder="Ingrese Numero 1"
+               Keyboard="Numeric">
+            
+        </Entry>
+        <Entry x:Name="num2"
+               Placeholder="Ingrese Numero 2"
+               Keyboard="Numeric">
+
+        </Entry>
+
+        <Button Text="SUMA" x:Name="btnadition" Clicked="btnagregar_Clicked"></Button>
+        <Button Text="RESTA" x:Name="btnsubstraction" Clicked="btnsubstraction_Clicked"></Button>
+        <Button Text="MULTIPLICACION" x:Name="btnmultiplication" Clicked="btnmultiplication_Clicked"></Button>
+        <Button Text="DIVISION" x:Name="btndivision" Clicked="btndivision_Clicked"></Button>
+        
+    </StackLayout>
+
+</ContentPage>
